@@ -1,0 +1,49 @@
+</!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hidden columns</title>
+	<style type="text/css">
+		body {
+			margin: 1em;
+		}
+
+		.longname{
+			display :none;
+		}
+		.inning{
+			display: none;
+		}
+
+		@media screen and (min-width: 499px){
+			.longname{
+				display: flex;
+			}
+			.inning{
+				display: flex;
+			}
+		}
+	</style>
+</head>
+<body>
+	<table style="width: 100%">
+		<tr>
+			<td>
+				<span class="shortname">TOR</span>
+				<span class="longname">Toronto Blue Jays</span>
+			</td>
+			<td class="inning">0</td>
+			<td class="inning">0</td>
+			<td class="inning">0</td>
+			<td class="inning">4</td>
+			<td class="inning">0</td>
+			<td class="inning">1</td>
+			<td class="inning">0</td>
+			<td class="inning">0</td>
+			<td class="inning">0</td>
+			<td class="final">5</td>
+		</tr>	
+	</table>
+</body>
+</html>

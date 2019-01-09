@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name = "viewport" content="width=device-width, initial-scale=1.0">
+	<title>Off Canvas</title>
+	<style type="text/css">
+		html,body,main{
+			height: 100%;
+			width : 100%;
+			background-color: darkblue
+		}
+
+		nav{
+			width: 300px;
+			height: 100%;
+			position: absolute;
+			transform: translate(-300px,0);
+			transition: transform 0.3s ease;
+			background-color: lightblue;
+		}
+
+
+
+		@media screen and (min-width: 600px){
+			nav{
+				position:relative;
+				transform: translate(0,0);
+			}
+			body{
+				display: flex;
+				flex-flow: row nowrap;
+				background-color: darkblue
+			}
+			main{
+				width: auto;
+				flex-grow: 1;
+			}
+		}
+	</style>
+</head>
+<nav id="drawer" class="darkblue"></nav>
+<main class="lightblue"></main>
+<body>
+
+</body>
+</html>

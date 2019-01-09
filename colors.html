@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset = "utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name = "viewport" content = "width = device-width, initial-scale=1.0">
+		<title>COLORS</title>
+		<link rel = "stylesheet" href = "colour.css">
+
+		<style type="text/css">
+			.container {
+				display : flex;
+				flex-wrap: wrap;
+			}
+			.box{
+				height:100px;
+				text-align: center;
+				width: 100%;
+			}
+
+			header {width: 100%; order: 1; background-color: lime}
+			.red{width: 50%; order: 2; background-color: red}
+			.orange{width: 50%; order: 3; background-color: orange}
+			footer{width: 100%; order: 4; background-color: cyan}
+			.lb{width: 20%; order: 5; background-color: lightblue}
+			.db{width: 60%; order: 6; background-color: darkblue}
+			.green{width: 20%; order: 7; background-color: green}
+
+		</style>
+	</head>
+
+	<body>
+		<div class="container">
+			<header class="box lime"></header>
+			<div class="box db"></div>
+			<div class="box orange"></div>
+			<div class="box lb"></div>
+			<div class="box green"></div>
+			<div class="box red"></div>
+			<footer class="box cyan"></footer>
+	</body>
+
+</html>

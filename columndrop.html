@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name = "viewport" content = "width = device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Column Drop</title>
+		<link rel= "stylesheet" media = "screen and (max-width:450px)" href ="col-drop-s.css">
+		<style type="text/css">
+			.container{
+				display:flex;
+				flex-wrap: wrap;
+			}
+			.rect{
+				height: 100px;
+			}
+
+			@media screen and (min-width: 451px){
+				.darkblue{
+					width: 25%;
+					background-color: darkblue;
+				}
+				.lightblue{
+					width: 75%;
+					background-color: lightblue;
+				}
+				.green{
+					width:100%;
+					background-color: green;
+				}
+			}
+
+			@media screen and (min-width: 550px){
+				.darkblue{
+					width: 25%;
+					background-color: darkblue;
+				}
+				.lightblue{
+					width: 50%;
+					background-color: lightblue;
+				}
+				.green{
+					width:25%;
+					background-color: green;
+				}
+			}
+
+		</style>
+	</head>
+
+	<body>
+		<div class="container">
+			<div class = "rect darkblue"></div>
+			<div class = "rect lightblue"></div>
+			<div class = "rect green"></div>
+		</div>
+	</body>
+
+</html>

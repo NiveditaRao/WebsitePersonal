@@ -1,0 +1,18 @@
+.container{
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.rect{
+	width: 100%;
+}
+
+.darkblue{
+	background-color: darkblue;
+}
+.lightblue{
+	background-color: lightblue;
+}
+.green{
+	background-color: green;
+}

@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<TITLE>Mostly Fluid</TITLE>
+		<style type="text/css">
+			.container{
+				display: flex;
+				flex-wrap: wrap;
+			}
+
+			.box{
+				height: 100px;
+			}
+
+			@media screen and (max-width: 450px){
+				.darkblue{
+					width: 100%;
+					background-color: darkblue;
+				}
+				.lightblue{
+					width: 100%;
+					background-color: lightblue;
+				}
+				.green{
+					width: 100%;
+					background-color: green;
+				}
+				.red{
+					width: 100%;
+					background-color: red;
+				}
+				.orange{
+					width: 100%;
+					background-color: orange;
+				}
+			}
+
+			@media screen and (min-width: 451px){
+				.darkblue{
+					width: 100%;
+					background-color: darkblue;
+				}
+				.lightblue{
+					width: 50%;
+					background-color: lightblue;
+				}
+				.green{
+					width: 50%;
+					background-color: green;
+				}
+				.red{
+					width: 100%;
+					background-color: red;
+				}
+				.orange{
+					width: 100%;
+					background-color: orange;
+				}
+			}
+
+			@media screen and (min-width: 551px){
+				.darkblue{
+					width: 50%;
+					background-color: darkblue;
+				}
+				.lightblue{
+					width: 50%;
+					background-color: lightblue;
+				}
+				.green{
+					width: 33%;
+					background-color: green;
+				}
+				.red{
+					width: 34%;
+					background-color: red;
+				}
+				.orange{
+					width: 33%;
+					background-color: orange;
+				}
+			}
+
+			@media screen and (min-width: 700px){
+				.container{
+					width: 700px;
+					margin-left: auto;
+					margin-right: auto;
+				}
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="container">
+			<div class = "box darkblue"></div>
+			<div class = "box lightblue"></div>
+			<div class = "box green"></div>
+			<div class = "box red"></div>
+			<div class = "box orange"></div>
+		</div>
+	</body>
+</html>
